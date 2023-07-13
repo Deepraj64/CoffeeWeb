@@ -40,7 +40,7 @@ html{
     margin: 10px 0;
 }
 .maincontainer{
-    background-image: url(img/img-mission-background.jpg);
+    background-image: url(img-mission-background.jpg);
     opacity: 0.9;
     height: 700px;
     width: 1400px;
@@ -107,7 +107,7 @@ figcaption{
 .bottom{
     width: 1400px;
     height: 500px;
-    background-image: url(img/img-locations-background.jpg);
+    background-image: url(img-locations-background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin-left: auto;

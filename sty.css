@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+html{
+    background-color: black;
+}
+.head{
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 69px;
+    display: inline-block;
+    background-color: black;
+}
+.hlist li{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: right;
+    padding: 10px  ;
+    font-size: 22px;
+    color: antiquewhite;
+    text-decoration: underline;
+    
+    
+    
+}
+@media only screen and (max-width:600px) {
+    .hlist li{
+        font-size: 16px;
+    }
+    
+}
+.logo{
+    height: 50px;
+    float: left;
+    margin: 10px 0;
+}
+.maincontainer{
+    background-image: url(img/img-mission-background.jpg);
+    opacity: 0.9;
+    height: 700px;
+    width: 1400px;
+    position: relative;
+    top:69px;
+    margin:0 auto;
+    background-size: cover;
+}
+.maininfo{
+    
+    text-align: center;
+    position: relative;
+    top: 300px;
+    bottom: 300px;
+    background-color: black;
+    font-weight: bolder;
+    color: antiquewhite;
+    height: 100px;
+    line-height: 3em;
+    
+}
+.maininfo h2{
+    font-size: 35px;
+}
+.maininfo h4{
+    font-size: 28px;
+}
+/*                                                      mid                                          */
+
+.midcon{
+    width: 1000px;
+    height: 800px;
+    color: antiquewhite;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    
+}
+
+.mg{
+    width: 300px;
+    height: 200px;
+    display: block;
+    padding: 10px;
+    
+}
+.midimg{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    
+   
+}
+figcaption{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.bottom{
+    width: 1400px;
+    height: 500px;
+    background-image: url(img/img-locations-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 20px;
+}
+.bottom h1{
+    padding-top: 50px;
+    color: antiquewhite;
+    
+}
+.loc{
+    display: inline-flex;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    
+    justify-content: space-around;
+    flex-flow: row;
+    margin-top: 15px;
+    justify-items: flex-start;
+    margin: 40px;
+    text-align: center;
+    flex-direction: column;
+    font-weight: bolder;
+
+}
+footer{
+    text-align: center;
+    font-weight: bolder;
+    height: 200px;
+    line-height: 4rem;
+    color: antiquewhite;
+    margin-top: 50px;
+}
+.cc{
+    color: antiquewhite;
+    font-size: 16px;
+    opacity: 0.8;
+}
+.loc :is(h3,p){
+    color: yellowgreen;
+}
+
+.container1{
+    width: 220px;
+    height: 200px;
+    display: flex;
+    overflow-x: scroll;
+    background-color: coral;
+    scroll-snap-type: x mandatory;
+}
+.container1 .box{
+    
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: center;
+}
+.container1 :nth-child(1){
+background-color: aqua;
+}
+.container1 :nth-child(2){
+    background-color: red;
+}
+.container1 :nth-child(3){
+    background-color:yellow;
+}
+.container1 :nth-child(4){
+    background-color: greenyellow;
+}
